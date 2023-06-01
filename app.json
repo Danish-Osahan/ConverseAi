@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "ConversaAI",
-    "slug": "ConversaAI",
+    "name": "ConversAI",
+    "slug": "ConversAI",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/screen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0e1920"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0e1920"
+      },
+      "package": "com.johnwick30.ConversAI"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bddb4920-4098-4190-ab2d-1cebedf8e8ab"
+      }
     }
   }
 }
